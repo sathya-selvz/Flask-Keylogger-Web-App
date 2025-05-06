@@ -80,3 +80,9 @@ Saved files:
 
     audio.wav — microphone recording
 
+## 📸 Screenshot
+
+![Web page Screenshot](images/screenshot1.png)
+
+
+
