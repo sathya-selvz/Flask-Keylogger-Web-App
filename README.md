@@ -82,7 +82,9 @@ Saved files:
 
 ## 📸 Screenshot
 
-![Web page Screenshot](https://github.com/sathya-selvz/Flask-Keylogger-Web-App/blob/main/screenshots/Screenshot1.png?raw=true)
 
+![Screenshot1](https://github.com/user-attachments/assets/a5c1cf93-1587-48aa-baf7-edb8cfeb06e1)
+![Screenshot2](https://github.com/user-attachments/assets/83e2aafb-56bc-4354-8c60-c6879b41e6d3)
+![Screenshot3](https://github.com/user-attachments/assets/c6ceefcf-0d57-4230-9dd3-53a35e4da5d5)
 
 
